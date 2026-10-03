@@ -157,6 +157,7 @@
 
     <!-- ================= SKILLS ================= -->
 
+```html
 <section class="skills" id="skills">
 
     <div class="section-title">
@@ -169,6 +170,7 @@
     </div>
 
     <div class="skills-container">
+
         <!-- Frontend -->
         <div class="skill-category">
             <h3>🌐 Frontend</h3>
@@ -180,6 +182,7 @@
                 <span>Responsive Design</span>
             </div>
         </div>
+
         <!-- Programming -->
         <div class="skill-category">
             <h3>🐍 Programming</h3>
@@ -192,23 +195,13 @@
             </div>
         </div>
 
-
         <!-- Python Development -->
         <div class="skill-category">
             <h3>🚀 Python Development</h3>
 
             <div class="skill-tags">
-
-                <span>
-                    Flask
-                    <small>Web Framework</small>
-                </span>
-
-                <span>
-                    Tkinter
-                    <small>GUI Library</small>
-                </span>
-
+                <span>Flask</span>
+                <span>Tkinter</span>
             </div>
         </div>
 
@@ -219,6 +212,29 @@
             <div class="skill-tags">
                 <span>MySQL</span>
                 <span>SQLite</span>
+            </div>
+        </div>
+
+        <!-- AI & Machine Learning -->
+        <div class="skill-category">
+            <h3>🤖 AI & Machine Learning</h3>
+
+            <div class="skill-tags">
+                <span>AI Basics</span>
+                <span>Machine Learning</span>
+                <span>Prompt Engineering</span>
+            </div>
+        </div>
+
+        <!-- Data & OCR -->
+        <div class="skill-category">
+            <h3>📄 Data & OCR</h3>
+
+            <div class="skill-tags">
+                <span>OCR</span>
+                <span>Pandas</span>
+                <span>OpenPyXL</span>
+                <span>Data Processing</span>
             </div>
         </div>
 
@@ -233,21 +249,10 @@
             </div>
         </div>
 
-        <!-- AI -->
-        <div class="skill-category">
-            <h3>🤖 AI</h3>
-
-            <div class="skill-tags">
-                <span>AI Basics</span>
-                <span>Prompt Engineering</span>
-            </div>
-        </div>
-
     </div>
 
 </section>
-
-<!---================= CERTIFICATIONS =================-->
+```<!---================= CERTIFICATIONS =================-->
 
 <section class="certifications" id="certifications">
 
@@ -363,26 +368,19 @@
     <h3>Machine Learning <br>using Python</h3>
 
     <p>
-        Currently learning Machine Learning using Python,
-        covering machine learning concepts, types of learning,
-        model training, evaluation, and practical applications.
+        Completed a Machine Learning course using Python, 
+        covering machine learning concepts, types of learning, 
+        model training, evaluation, and practical applications, 
+        along with core machine learning techniques.
     </p>
 
-    <span class="issuer">Currently Learning</span><br>
+    <span class="issuer">Simplilearn Certificate</span><br>
 
-    <button class="certificate-btn" onclick="showMLDetails()">
-        📚 Learning Progress
-    </button>
-
-    <script>
-    function showMLDetails() {
-        alert(
-            "Machine Learning using Python\n\n" +
-            "Currently learning Machine Learning concepts using Python.\n\n" +
-            "Certificate will be added after completing the course."
-        );
-    }
-    </script>
+    <a href="assets/ML.pdf"
+       target="_blank"
+       class="certificate-btn">
+        📄 View Certificate
+    </a>
 
 </div>
 </section>
@@ -405,7 +403,48 @@
 
     <div class="project-container">
 
-        
+        <!-- Document to Excel -->
+
+<div class="project-card">
+
+    <img src="assets/images/document-to-excel-cover.png" alt="Document to Excel">
+
+    <div class="project-info">
+
+        <span class="tag">Ongoing Project</span>
+
+        <h3>Document-to-Excel Converter</h3>
+
+        <p>
+            Developing a Python-based document processing tool that 
+            extracts text and structured data using OCR and converts it 
+            into Excel format for easy data management.
+        </p>
+
+        <div class="tech">
+
+            <span>Python</span>
+            <span>OCR</span>
+            <span>OpenPyXL</span>
+            <span>Pandas</span>
+
+        </div>
+
+        <button class="screenshot-btn"
+        onclick="openGallery([
+        'assets/images/doc-excel-1.png',
+        'assets/images/doc-excel-2.png',
+        'assets/images/doc-excel-3.png',
+        'assets/images/doc-excel-4.png'
+        ])">
+
+        📸 View Screenshots
+
+        </button>
+
+    </div>
+
+</div>
 
         <!-- AI Calculator -->
 
